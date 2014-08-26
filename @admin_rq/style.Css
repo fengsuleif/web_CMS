@@ -1,0 +1,67 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #fff repeat-x; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: 12px Verdana, Arial, sans-serif; COLOR: #666; PADDING-TOP: 0px;
+ background-color:#EFF0F4; }
+
+A:link {	COLOR: #105cb6;}
+A:visited {	COLOR: #105cb6}
+A:hover {COLOR: #FF9900}
+.Login1 {	
+	font-weight: bold;	
+	background-color: #EAF6FF;	
+	text-align: center;
+}
+#dh{border: 1px solid #c3e0f5;font-size: 14px;color: #000000; }
+.Login2 {	background-color: #fff;border: 1px solid #c3e0f5;}
+.Login3 {
+	background-color: #FBFDFF;
+	border: 1px solid #c3e0f5;
+	line-height: 25px;
+}
+.Main1 {
+	color: #FFFFFF;
+	background-color: #2701BE;
+	font-weight: bold;
+}
+.Main2 {
+	color: #000000;
+	border: 1px solid #035BBC;
+	line-height: 30px;
+	padding:10px
+}
+
+.logo {
+	color: #666666;
+	background-color: #ECF1F5;
+	height: 28px;
+}
+.class1 {
+	font-family: "ËÎÌו";
+	font-size: 12px;
+	font-style: normal;
+	color: #000000;
+	background-image: url(images/d_bg.gif);
+	background-repeat: repeat-x;
+	height: 25px;
+	font-weight: normal;
+	border: 1px solid #c3e0f5;
+}
+.Class1 {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #EAF6FF;
+	border: 1px solid #A2D8FF;
+}
+#page
+{
+  margin:50px auto;
+  text-align:center;
+}
+#page a ,#page span
+{
+    margin 15px 10px;
+    padding:5px;
+   	border: 1px solid #c3e0f5; 
+}
+
+
+	
+	

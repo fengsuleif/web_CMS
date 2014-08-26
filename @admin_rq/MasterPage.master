@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>后台管理</title>
+    <link href="style.Css" rel="stylesheet" type="text/css" />
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="main.aspx">系统管理</a>
+    <ul class="nav">
+      <li class="active"><a href="../index.aspx">网站首页</a></li>
+      <li ><a href="main.aspx">系统信息</a></li>
+	  <li ><a href="Main.aspx?ac=ck" >退出</a></li>
+    </ul>
+  </div>
+</div>
+    <form id="form1" runat="server">
+    
+     <table width="95%" border="0" cellspacing="0" cellpadding="0">
+       <tr>
+        <td valign="top" width="20%" >
+      <div class="well well-large">
+
+ <table  class="table table-hover table-bordered">
+  <tr >
+    <td align="center" height="25" >用户管理</td>
+  </tr>
+  
+  <tr>
+    <td align="center" ><a href="./Admin_UserAdd.aspx" >用户管理</a><br /></td>
+  </tr>   
+  
+  <tr class="">
+    <td align="center"  height="25" >新闻管理</td>
+  </tr>
+  
+  <tr>
+    <td align="center" ><a href="./AddClass.Aspx">添加分类</a><br/><a href="./Class.aspx">分类管理</a><br/>
+    <a href="./addnew_ti.aspx">添加新闻</a><br/><a href="./AdminNews.aspx">新闻管理</a><br/></td>
+  </tr> 
+  
+  <tr >
+    <td align="center" height="25" >文件管理</td>
+  </tr>
+  
+  <tr>
+    <td align="center" ><a href="dirfile.aspx">文件管理</a><br /></td>
+  </tr>
+  
+  <tr >
+    <td align="center"  height="25" >版权信息</td>
+  </tr>
+  
+  <tr >
+    <td align="center">程序设计:<font color="red">FSL</font><br/><a href="http://www.fengsuleif.com" target="_blank">fengsulei.com</a><br/>fengsuleif@gmail.com</td>
+  </tr>
+  
+</table>
+
+</div>
+</td>
+<td width="2"></td>
+<td valign="top"  width="78%">
+<asp:ContentPlaceHolder ID="Conut1" runat="server">
+    </asp:ContentPlaceHolder>
+ </td>
+</tr>
+</table>
+  
+    </form>
+</body>
+</html>
